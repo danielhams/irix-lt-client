@@ -2,6 +2,12 @@ NULL=
 
 bin_PROGRAMS=irixltclient
 
+noinst_HEADERS=					\
+	print.hpp				\
+	session_view.hpp			\
+	torrent_view.hpp			\
+	$(NULL)
+
 irixltclient_SOURCES=				\
 	print.cpp				\
 	session_view.cpp			\
