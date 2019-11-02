@@ -3,6 +3,9 @@ NULL=
 bin_PROGRAMS=irixltclient
 
 irixltclient_SOURCES=				\
+	print.cpp				\
+	session_view.cpp			\
+	torrent_view.cpp			\
 	irixltclient.cpp			\
 	$(NULL)
 
