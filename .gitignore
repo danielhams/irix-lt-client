@@ -37,4 +37,4 @@ program
 *.o
 *~
 ii_files
-src/disp/disp
+src/irixltclient/irixltclient
